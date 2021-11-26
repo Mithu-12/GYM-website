@@ -1,0 +1,37 @@
+.banner {
+  background-image: url("https://www.livemeshthemes.com/fitpro/wp-content/uploads/sites/6/2014/07/body-building.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+  height: 700px;
+  width: 100%;
+  /* border: 1px solid red; */
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position: fixed;
+}
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+.about-btn {
+  background-color: #ff34a0;
+  outline: none;
+  border: 1px solid #ff3cb4;
+  border-radius: 10px;
+  padding: 12px 34px;
+  color: white;
+}
+.text {
+  color: #f9f9;
+}
+@media screen and (max-width: 768px) {
+  .textWight{
+        font-size: 16px;
+  }
+  .title{
+    font-size: 24px;
+  }
+  
+}

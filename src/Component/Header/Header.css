@@ -1,0 +1,26 @@
+.items {
+  list-style: none;
+  margin-right: 30px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 15px;
+  text-decoration: none;
+}
+.items:hover {
+  color: rgb(221, 5, 5);
+}
+
+.img {
+  background-color: #fff;
+  border-radius: 5px;
+}
+.menu {
+  background-color: hsl(180, 75%, 16%);
+  width: 100%;
+}
+.Menu-container {
+  display: flex;
+}
